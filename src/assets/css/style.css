@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@import url("/fonts/pretendard.css");
+
+:root {
+  --font-family-default: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic",
+    "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  --font-size-default: 1rem;
+  --font-weight-default: 400;
+  --font-weight-bold: 700;
+  --duration-1: 100ms;
+  --duration-2: 200ms;
+  --duration-3: 300ms;
+}
+
+html,
+body {
+  overflow: hidden !important;
+}
+
+body {
+  font-family: var(--font-family-default) !important;
+  font-size: var(--font-size-default);
+  font-weight: var(--font-weight-default);
+}
+
+a:visited {
+  color: inherit !important;
+}
+
+.text-h1,
+.text-h2,
+.text-h3,
+.text-h4,
+.text-h5,
+.text-h6,
+.text-subtitle-1,
+.text-subtitle-2,
+.text-body-1,
+.text-body-2 {
+  font-weight: var(--font-weight-default);
+  font-family: var(--font-family-default) !important;
+}
+
+.border-r {
+  border-right: thin solid;
+  border-color: rgba(var(--v-border-color), var(--v-border-opacity)) !important;
+}

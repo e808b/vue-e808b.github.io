@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 400;
+  font-style: normal;
+  src:
+    url('./Pretendard-Regular.woff2') format('woff2'),
+    url('./Pretendard-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 700;
+  font-style: normal;
+  src:
+    url('./Pretendard-Bold.woff2') format('woff2'),
+    url('./Pretendard-Bold.woff') format('woff');
+}
